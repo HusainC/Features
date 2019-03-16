@@ -15,7 +15,7 @@ public class Display {
      * @Desc: this method takes in a number and lists the players who have won  titles greater than the number
      * entered by the user
      */
-    public static void TestLambda(int  numberOfTitles)
+    public static void testLambda(int  numberOfTitles)
     {
         Person a =new Person("Novak","Djokovic");
         Person b =new Person("Roger","Federer");
@@ -33,6 +33,6 @@ public class Display {
         System.out.println("Enter a number");
         int titles=sc.nextInt();
         //TestVar();
-        TestLambda(titles);
+        testLambda(titles);
     }
 }
