@@ -1,6 +1,6 @@
 /**
- *  author:Husain Chopdawala
- *  Des: Testing new features of java 8 and 10
+ *  @author:Husain Chopdawala
+ *  @Des: Testing new features of java 8 and 10
  */
 
 
@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 public class Display {
 
     /**
-     * para:an integer that represents the number of titles
-     * Desc: this method takes in a number and lists the players who have won  titles greater than the number
+     * @para:an integer that represents the number of titles
+     * @Desc: this method takes in a number and lists the players who have won  titles greater than the number
      * entered by the user
      */
     public static void TestLambda(int  numberOfTitles)

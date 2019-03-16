@@ -1,3 +1,8 @@
+/**
+ * @author:Husain Chopdawala
+ * @desc:represents
+ */
+
 public class Person {
     private String firstName;
     private String lastName;
