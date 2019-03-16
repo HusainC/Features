@@ -1,20 +1,39 @@
 public class Person {
-    private String name;
-    public Person(String name)
+    private String firstName;
+    private String lastName;
+    private int titles;
+    public Person(String firstName,String lastName)
     {
-        this.name=name;
+        this.firstName=firstName;
+        this.lastName=lastName;
+        if(this.getLastName().equals("Federer"))
+        {
+            this.titles=100;
+        }
+        else if(this.getLastName().equals("Nadal"))
+        {
+            this.titles=80;
+        }
+        else if(this.getLastName().equals("Djokovic"))
+        {
+            this.titles=73;
+        }
+        else
+        {
+            this.titles=0;
+        }
     }
 
-    public boolean StartsWith(char s)
+    public String getFirstName()
     {
-       if(getName().charAt(0)== s)
-           return true;
-       else
-           return false;
+        return firstName;
     }
-
-    public String getName()
+    public String getLastName()
     {
-        return name;
+        return lastName;
+    }
+    public int getTitles()
+    {
+        return titles;
     }
 }
