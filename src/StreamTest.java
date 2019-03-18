@@ -16,6 +16,6 @@ public class StreamTest {
         person.add(a);
         person.add(b);
         person.add(c);
-       assertEquals(73,person.stream().peek(person1 -> person1.getTitles()));
+       assertEquals(3,person.stream().count());
     }
 }
