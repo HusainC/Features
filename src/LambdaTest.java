@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class PersonTest {
+public class LambdaTest {
 
     @Test
     public void testLambda()
@@ -21,11 +21,4 @@ public class PersonTest {
 
     }
 
-    @Test
-    public void getLastName() {
-    }
-
-    @Test
-    public void getTitles() {
-    }
 }
