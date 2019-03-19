@@ -31,8 +31,8 @@ public class LambdaTest {
         c.add(a);
         c.add(b);
         c.add(s);
-        List allAges = Person.listAllAges(c, Person::getTitles);
-        assertEquals(73,allAges.get(0));
+        List allTitles = Person.listAllAges(c, Person::getTitles);
+        assertEquals(73,allTitles.get(0));
 
     }
 
