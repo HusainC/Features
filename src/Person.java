@@ -1,7 +1,5 @@
-import java.time.LocalDate;
-import java.time.Period;
-import  java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Function;
 
 /**
@@ -40,15 +38,8 @@ public class Person {
         return titles;
     }
 
-    public int getAge(LocalDate birthDate) {
-        if (birthDate != null) {
-            return Period.between(birthDate, LocalDate.now()).getYears();
-        } else {
-            return 0;
-        }
-    }
 
-    public static List listAllAges(List person, Function<Person, Integer> f) {
+    public static List listAllTitles(List person, Function<Person, Integer> f) {
         List result = new ArrayList();
         person.forEach(x -> result.add(f.apply((Person) x)));
         return result;
