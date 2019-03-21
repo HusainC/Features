@@ -22,7 +22,7 @@ public class Person {
         } else if (this.getLastName().equals("Djokovic")) {
             this.titles = 73;
         } else {
-            this.titles = 0;
+            this.titles = 10;
         }
     }
 
